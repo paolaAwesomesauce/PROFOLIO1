@@ -1,0 +1,72 @@
+body{
+	background-image: url('http://images2.alphacoders.com/240/240942.jpg'); 
+	min-height: 100%;
+    min-width: 100%;
+	font-family: 'Lato', sans-serif;
+}
+#AM{
+	font-family: 'Calligraffitti', cursive;
+}
+.name{
+	font-family: 'Calligraffitti', cursive;
+	font-size: 25px;
+	margin-top: 15px;
+	opacity: 0.5;
+	text-align: center;
+	color: white;
+	background-color: black;
+	margin-left: 100px;
+	margin-right: 100px;
+	padding-top: 10px;
+	padding-bottom: 40px;
+}
+.aboutMe{
+	text-align: center;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 40px;
+	padding-right: 60px;
+	padding-left: 60px;
+	background-color: black;
+	margin-top: 80px;
+	margin-left: 100px;
+	margin-right: 100px;
+	opacity: 0.5;
+	font-size: 20px;
+}
+.links{
+	text-align: center;
+	font-size: 40px;
+	color: white;
+	margin-top: 20px;
+	font-family: 'Calligraffitti', cursive;
+}
+a:link {
+    color: black;
+}
+a:visited {
+    color: yellow;
+}
+a:hover {
+    color: white;
+}
+a:active {
+    color: lime;
+}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+
