@@ -6,6 +6,8 @@
 }
 .propage{
 	background-image: url('http://th01.deviantart.net/fs70/PRE/i/2013/160/4/9/devil_s_trap_by_annesaysmeow-d68el9z.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 #AM{
 	font-family: 'Calligraffitti', cursive;
