@@ -89,3 +89,12 @@ a:link {
 	opacity: 0.8;
 	font-size: 20px;
 }
+#carousel-example-generic{
+	width: 500px;
+	margin-left: 400px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+ .demo{
+ 	background-color: pink;
+ }
