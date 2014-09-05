@@ -1,7 +1,7 @@
 .index{
 	background-image: url('http://images2.alphacoders.com/240/240942.jpg'); 
-	min-height: 100%;
-    min-width: 100%;
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
 	font-family: 'Lato', sans-serif;
 }
 .propage{
@@ -89,12 +89,18 @@ a:link {
 	opacity: 0.8;
 	font-size: 20px;
 }
-#carousel-example-generic{
-	width: 500px;
-	margin-left: 400px;
-	margin-top: 20px;
-	margin-bottom: 20px;
-}
+
  .demo{
  	background-color: pink;
  }
+.Dmodal{
+	text-align: center;
+	color: white;
+	font-family: 'Calligraffitti', cursive;
+}
+#carousel-example-generic{
+	margin-left: 430px;
+	width: 500px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
