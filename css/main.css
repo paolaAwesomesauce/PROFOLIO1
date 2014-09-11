@@ -1,7 +1,4 @@
 .index{
-	background-image: url('http://images2.alphacoders.com/240/240942.jpg'); 
-	background-size: 100% 100%;
-    background-repeat: no-repeat;
 	font-family: 'Lato', sans-serif;
 }
 .propage{
@@ -43,7 +40,6 @@
 	text-align: center;
 	color: black;
 	font-size: 40px;
-	margin-top: 20px;
 	font-family: 'Calligraffitti', cursive;
 }
 a:hover {
@@ -138,7 +134,7 @@ a:link {
 }
 
 #home { 
-  background: url('http://atth.eduu.com/forum/day_100331/1003312322995271922c79b062.jpg') 50% 0 repeat fixed; min-height: 1000px; 
+  background: url('http://images2.alphacoders.com/240/240942.jpg') 50% 0 repeat fixed; min-height: 1000px; 
   height: 1000px; 
   margin: 0 auto; 
   width: 100%; 
@@ -151,7 +147,8 @@ a:link {
   position: absolute; 
   text-align: center; 
   top: 150px; 
-  width: 100%; 
+  width: 100%;
+  font-size: 32px; 
 }
  
 #about { 
@@ -163,6 +160,7 @@ a:link {
   position: relative; 
   -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
   box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  font-size: 32px;
 }
  
 #about article { 
