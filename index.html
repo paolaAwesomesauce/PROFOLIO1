@@ -1,73 +1,105 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Calligraffitti' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Coming+Soon' rel='stylesheet' type='text/css'>
 	<title></title>
 </head>
 <body class="index">
+
+  <!--First Part of Parrallax-->
 	<section id="home" data-type="background" data-speed="10">
-	<div class="links">
-		<nav>
-			<a href="Projects.html"> Projects</a>
-		</nav>
-	</div>
+
+  <!--Title of page-->
 	<div class="name">
-		 <h1>Paola Gonzalez Rosas</h1>
+		 Paola Gonzalez Rosas
+     <p id="NP2">
+       <br> Daughter -- Sister -- Friend -- Student
+     </p>
+     <div class="divbox"></div>
+     <p id="NP">
+       "In the end it's not the years in your life that count. It's the life in your years."
+          <br>- Abraham Lincoln
+     </p>
 	</div>
+  </section>
+
+  <!--Second part of parallax-->
+   <section id="about" data-type="background" data-speed="10">
+
+  <!--Paragraph about me-->
 	<div class="aboutMe">
 		<h1 id="AM">About Me</h1>
 		<p>
 			Hello! My name is Paola. I got to school at Pasadena High School and I live in Paseadena. I am part of the APP Academy, where I have learned a lot about coding. My hobbies included reading and writing, though i prefer reading. I also enjoy watching T.V. and movies and spending time with family and friends.
 		</p>
 	</div>
+
+  <!-- Interest modals being-->
 	<div class="Dmodal">
 		<h1>My Interest:</h1>
 	</div>
-  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-  </ol>
 
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner">
-    <div class="item active">
-      <img src="bpic.jpg" alt="...">
-      <div class="carousel-caption">
-        I like to read all the time. I read about anything. Reading is always part of my daily life. I like to read because I can learn about other people's experiences and thoughts. I also like to read because it can help me in school and in my writing. I feel like when I read, I'm a mind reader, because I read the thoughts of others. To me, reading is good pass time. When I read, I escape to another world, where everything is different.
-      </div>
-    </div>
-    <div class="item">
-      <img src="mpics.jpg" alt="...">
-      <div class="carousel-caption">
+
+  <!--Music Modal-->
+  <button class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg" id="modalM">
+    <img src="music.jpg">
+  </button>
+
+  <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <h1 id="M">Music</h1>
+      <p id="MP1">
         Music is a daily thing for me. To me, it's like coffee; I have to listen to music to be fully awake. I don't make my own music or play an instrument or sing, but I feel like I have to appreciate music. I can listen to other people be creative. I listen to music whenever I do anything; homework, chores, and walking to school.
-      </div>
+      </p>
+      <img src="mpics.jpg" width="400px" height="400px" id="mPic">
     </div>
-    <div class="item">
-      <img src="tpics.jpg" alt="...">
-      <div class="carousel-caption">
-        
-      </div>
+  </div>
   </div>
 
-  <!-- Controls -->
-  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left"></span>
-  </a>
-  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right"></span>
-  </a>
-</div>
- </section>
-   <section id="about" data-type="background" data-speed="10">
+
+  <!--Reading Modal-->
+  <button class="btn btn-primary 2" data-toggle="modal" data-target=".bs-example-modal-lg2" id="modalB">
+    <img src="book.jpg">
+  </button>
+
+  <div class="modal fade bs-example-modal-lg2" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <h1 id="B">Reading</h1>
+      <p id="BP1">
+        I like to read all the time. I read about anything. Reading is always part of my daily life. I like to read because I can learn about other people's experiences and thoughts. I also like to read because it can help me in school and in my writing. I feel like when I read, I'm a mind reader, because I read the thoughts of others. To me, reading is good pass time. When I read, I escape to another world, where everything is different.
+      </p>
+      <img src="bpic.jpg" width="500px" height="400px" id="bPic">
+    </div>
+  </div>
+  </div>
+
+  <!-- T.V. Modal-->
+  <button class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg3" id="modalT">
+    <img src="ticon.jpg">
+  </button>
+
+  <div class="modal fade bs-example-modal-lg3" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <h1 id="T">Favorites</h1>
+      <p id="TP1">
+        These are just some of my favortie T.V. shows and movies.
+      </p>
+      <img src="tpics.jpg" width="500px" height="400px" id="tPic">
+    </div>
+  </div>
+  </div>
 	</section>
+
+
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 </body>
