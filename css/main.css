@@ -9,18 +9,9 @@
   background-repeat: no-repeat;
   background-size: 100%;
 }
- 
-#home article { 
-  height: 458px; 
-  position: absolute; 
-  text-align: center; 
-  top: 150px; 
-  width: 100%;
-  font-size: 32px; 
-}
- 
+  
 #about { 
-  background: url('http://www.sparkleofnature.com/25672_peach_carnations_w_2560x1600.jpg') 50% 0 repeat fixed; min-height: 1000px; 
+  background: url('http://bigbackground.com/wp-content/uploads/2013/07/galaxy-wallpaper-tumblr.jpg') 50% 0 repeat fixed; min-height: 100px; 
   height: 1000px; 
   margin: 0 auto; 
   width: 100%; 
@@ -28,59 +19,52 @@
   position: relative; 
   -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
   box-shadow: 0 0 50px rgba(0,0,0,0.8);
-  font-size: 32px;
 }
- 
-#about article { 
-  height: 458px; 
-  position: absolute; 
-  text-align: center; 
-  top: 150px; 
+ #about2 { 
+  background: url('http://www.mrwallpaper.com/wallpapers/airliner-plane-sunset.jpg') 50% 0 repeat fixed; min-height: 1000px; 
+  height: 1000px; 
+  margin: 0 auto; 
   width: 100%; 
+  max-width: 1920px; 
+  position: relative; 
+  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
 }
 
 /*Body ID*/
 .index{
-	font-family: 'Lato', sans-serif;
-}
-
-/*Links Style*/
-.links{
-	text-align: center;
-	color: black;
-	font-size: 40px;
-	font-family: 'Calligraffitti', cursive;
-}
-a:hover {
-    color: white;
-}
-a:link {
-    text-decoration: none;
+	font-family: 'Coming Soon', cursive;
 }
 
 /*Title Style*/
+#Marg{
+	padding-bottom: 100px;
+}
 .name{
 	font-family: 'Coming Soon', cursive;
 	font-size: 65px;
 	text-align: center;
-	color: black;
+	color: white;
 	margin-left: 100px;
 	margin-right: 100px;
-	padding-top: 100px;
+	padding-top: 30px;
+	opacity: 0.5; 
+	background-color: black;
 }
 #NP{
 	font-family: 'Coming Soon', cursive;
 	font-size: 35px;
 	text-align: center;
-	color: black;
+	color: white;
 	margin-left: 100px;
 	margin-right: 100px;
 	padding-top: 20px;
+	padding-bottom: 35px;
 }
 .divbox{
     width: 800px;
     height: 20px;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid white;
     margin-left: 200px;
     margin-top: 25px;
 }
@@ -88,12 +72,16 @@ a:link {
 	font-family: 'Coming Soon', cursive;
 	font-size: 32px;
 	text-align: center;
-	color: black;
+	color: white;
 	margin-left: 100px;
 	margin-right: 100px;
 }
 
+
 /*About Me styles*/
+#Marg2{
+	padding-bottom: 100px;
+}
 .aboutMe{
 	text-align: center;
 	color: white;
@@ -108,14 +96,14 @@ a:link {
 	font-size: 20px;
 }
 #AM{
-	font-family: 'Calligraffitti', cursive;
+	font-family: 'Coming Soon', cursive;
 }
 
 /*Interests part styling*/
 .Dmodal{
 	text-align: center;
-	color: white;
-	font-family: 'Calligraffitti', cursive;
+	color: black;
+	font-family: 'Coming Soon', cursive;
 }
 
 /*Music Modal Styling*/
@@ -125,10 +113,10 @@ a:link {
 #M{
 	text-align: center;
 	color: black;
-	font-family: 'Calligraffitti', cursive;
+	font-family: 'Coming Soon', cursive;
 }
 #MP1{
-	font-family: 'Lato', sans-serif;
+	font-family: 'Coming Soon', cursive;
 	font-size: 15px;
 	padding-top: 15px;
 	padding-right: 25px;
@@ -146,10 +134,10 @@ a:link {
 #B{
 	text-align: center;
 	color: black;
-	font-family: 'Calligraffitti', cursive;
+	font-family: 'Coming Soon', cursive;
 }
 #BP1{
-	font-family: 'Lato', sans-serif;
+	font-family: 'Coming Soon', cursive;
 	font-size: 15px;
 	padding-top: 15px;
 	padding-right: 25px;
@@ -167,10 +155,10 @@ a:link {
 #T{
 	text-align: center;
 	color: black;
-	font-family: 'Calligraffitti', cursive;
+	font-family: 'Coming Soon', cursive;
 }
 #TP1{
-	font-family: 'Lato', sans-serif;
+	font-family: 'Coming Soon', cursive;
 	font-size: 15px;
 	padding-top: 15px;
 	padding-right: 25px;
@@ -181,23 +169,13 @@ a:link {
 	margin-bottom: 20px;
 }
 
-/*Projects page stuff*/
-.propage{
-	background-image: url('http://th01.deviantart.net/fs70/PRE/i/2013/160/4/9/devil_s_trap_by_annesaysmeow-d68el9z.png');
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-.links2{
-	text-align: center;
-	color: black;
-	font-size: 40px;
-	margin-top: 20px;
-	font-family: 'Calligraffitti', cursive;
+/*Project styling*/
+#Marg3{
+	padding-bottom: 100px;
 }
 .projects{
-	font-family: 'Calligraffitti', cursive;
+	font-family: 'Coming Soon', cursive;
 	font-size: 25px;
-	margin-top: 15px;
 	opacity: 0.8;
 	text-align: center;
 	color: white;
@@ -207,6 +185,10 @@ a:link {
 	padding-top: 10px;
 	padding-bottom: 40px;
 }
+
+/*Projects page stuff*/
+
+
 #modal{
 	margin-left: 500px;
 	margin-top: 20px; 
