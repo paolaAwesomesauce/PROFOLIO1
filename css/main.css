@@ -192,39 +192,12 @@
 	background-color: black;
 }
 
-/*projects modal styling*/
-#modalP{
-	margin-left: 355px;
-}
-#W{
-	text-align: center;
-	color: white;
-	font-family: 'Coming Soon', cursive;
-}
-#WP1{
-	font-family: 'Coming Soon', cursive;
-	font-size: 15px;
-	padding-top: 15px;
-	padding-right: 25px;
-	padding-left: 25px;
-}
-#PP{
-	padding-top: 15px;
-	padding-left: 200px;
-}
+/*Webpage pic styling*/
 
-/*cookie clicker modal*/
-#modalC{
-	margin-left: 25px;
-}
-#CC1{
-	font-family: 'Coming Soon', cursive;
-	font-size: 15px;
-	padding-top: 15px;
-	padding-right: 25px;
-	padding-left: 25px;
-}
-#CCP{
-	padding-top: 15px;
-	padding-left: 200px;
+
+/*Demo styling*/
+#carousel-example-generic{
+	margin-left: 355px;
+	margin-top: 50px;
+	width: 600px;
 }
