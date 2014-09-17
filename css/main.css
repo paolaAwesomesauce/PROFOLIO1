@@ -1,6 +1,211 @@
+/*Media Quaries*/
+@media screen and (max-width: 1348px){
+	#home{
+		width: 100%;
+		margin: 0 auto;
+	}
+	#Marg{
+		width: 100%;
+		margin: 0 auto;
+	}
+	.name{
+		width: 100%;
+		margin: 0 auto;
+	}
+	#NP2{
+		width: 100%;
+		margin: 0 auto;
+	}
+	#NP{
+		width: 100%;
+		margin: 0 auto;
+	}
+	#about{
+		width: 100%;
+		margin: 0 auto;
+	}
+	#Marg2{
+		width: 100%;
+		margin: 0 auto;
+	}
+	#AM{
+		width: 100%;
+		margin: 0 auto;
+	}
+	#aboutMe{
+		width: 100%;
+		margin: 0 auto;
+	}
+	.Dmodal{
+		width: 100%;
+		margin: 0 auto;
+	}
+	.modal-content{
+		width: 100%;
+		margin: 0 auto;
+	}
+	#modalM{
+		width: 100%;
+		margin: 0 auto;
+	}
+	#M{
+		width: 100%;
+		margin: 0 auto;
+	}
+	#MP1{
+		width: 100%;
+		margin: 0 auto;
+	}
+	#modalB{
+		width: 100%;
+		margin: 0 auto;
+	}
+	#B{
+		width: 100%;
+		margin: 0 auto;
+	}
+	#BP1{
+		width: 100%;
+		margin: 0 auto;
+	}
+	#modalT{
+		width: 100%;
+		margin: 0 auto;
+	}
+	#T{
+		width: 100%;
+		margin: 0 auto;
+	}
+	#TP1{
+		width: 100%;
+		margin: 0 auto;
+	}
+	#about2{
+		width: 100%;
+		margin: 0 auto;
+	}
+	#Marg3{
+		width: 100%;
+		margin: 0 auto;
+	}
+	.projects{
+		width: 100%;
+		margin: 0 auto;
+	}
+	#carousel-example-generic{
+		width: 100%;
+		margin: 0 auto;
+	}
+	img{
+		width: 100%;
+		margin: 0 auto;
+	}
+}
+@media screen and (max-width: 319px){
+	#home{
+		width: 100%;
+		margin: 0 auto;
+	}
+	#Marg{
+		width: 100%;
+		margin: 0 auto;
+	}
+	.name{
+		width: 100%;
+		margin: 0 auto;
+	}
+	#NP2{
+		width: 100%;
+		margin: 0 auto;
+	}
+	#NP{
+		width: 100%;
+		margin: 0 auto;
+	}
+	#about{
+		width: 100%;
+		margin: 0 auto;
+	}
+	#Marg2{
+		width: 100%;
+		margin: 0 auto;
+	}
+	#AM{
+		width: 100%;
+		margin: 0 auto;
+	}
+	#aboutMe{
+		width: 100%;
+		margin: 0 auto;
+	}
+	.Dmodal{
+		width: 100%;
+		margin: 0 auto;
+	}
+	.modal-content{
+		width: 100%;
+		margin: 0 auto;
+	}
+	#modalM{
+		width: 100%;
+		margin: 0 auto;
+	}
+	#M{
+		width: 100%;
+		margin: 0 auto;
+	}
+	#MP1{
+		width: 100%;
+		margin: 0 auto;
+	}
+	#modalB{
+		width: 100%;
+		margin: 0 auto;
+	}
+	#B{
+		width: 100%;
+		margin: 0 auto;
+	}
+	#BP1{
+		width: 100%;
+		margin: 0 auto;
+	}
+	#modalT{
+		width: 100%;
+		margin: 0 auto;
+	}
+	#T{
+		width: 100%;
+		margin: 0 auto;
+	}
+	#TP1{
+		width: 100%;
+		margin: 0 auto;
+	}
+	#about2{
+		width: 100%;
+		margin: 0 auto;
+	}
+	#Marg3{
+		width: 100%;
+		margin: 0 auto;
+	}
+	.projects{
+		width: 100%;
+		margin: 0 auto;
+	}
+	#carousel-example-generic{
+		width: 100%;
+		margin: 0 auto;
+	}
+	img{
+		width: 100%;
+	}
+}
+
 /*Parallax coding*/
 #home { 
-  background: url('http://static.tumblr.com/e7afc37c47338fa99e28d107341ea098/dzxmbwq/Givn6d0jp/tumblr_static_9cgvow3mg5wc8w880oo8g4ssg.jpg') 50% 0 repeat fixed; min-height: 1000px; 
+  background: url('https://unsplash.imgix.net/27/perspective.jpg?q=75&fm=jpg&auto=format&s=6baebf9e4be2259da2b0f9dd96140704') 50% 0 repeat fixed; min-height: 1000px; 
   height: 1000px; 
   margin: 0 auto; 
   width: 100%; 
@@ -83,7 +288,7 @@
 #Marg2{
 	padding-bottom: 100px;
 }
-.aboutMe{
+#aboutMe{
 	text-align: center;
 	color: white;
 	padding-top: 10px;
@@ -193,12 +398,17 @@
 	background-color: black;
 }
 
-/*Webpage pic styling*/
-
-
-/*Demo styling*/
 #carousel-example-generic{
 	margin-left: 355px;
 	margin-top: 50px;
 	width: 600px;
+}
+
+/*demo stuff*/
+#mydiv{
+	background-color: yellow;
+	margin-top: 25px;
+	margin-left: 20px;
+	margin-right: 800px;
+	font-size: 20px;
 }
