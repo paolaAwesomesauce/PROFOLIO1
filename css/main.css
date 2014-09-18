@@ -171,13 +171,13 @@
 }
 #M{
 	text-align: center;
-	color: black;
+	color: white;
 	font-family: 'Coming Soon', cursive;
 }
 #MP1{
 	font-family: 'Coming Soon', cursive;
 	font-size: 15px;
-	color: black;
+	color: white;
 	padding-top: 15px;
 	padding-right: 25px;
 	padding-left: 25px;
@@ -187,11 +187,15 @@
 	margin-bottom: 20px;
 }
 .modal-content{
-	background-image: url('http://www.wallpaperdesign.org/wp-content/uploads/floral-wallpaper.jpg');
+	background-image: url('http://www.knowledgeoverflow.com/wp-content/uploads/2013/08/Blue-Wallpaper-Background-Full-HD.jpg');
 	color: black;
 	height: inherit;
 	margin: 0 auto;
  	width: 100%;
+ 	background-repeat: no-repeat;
+  	background-size: 100%;
+  	max-width:100%;
+  	max-height: 100%
 }
 
 /*Reading Styling*/
