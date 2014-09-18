@@ -1,50 +1,33 @@
-/*Media Quaries
+/*Media Quaries*/
 @media screen and (max-width: 1349px){
 	.index{
-		width: 100%;
-	}
-	#home{
-		width: 100%;
-		height: 100%
-	}
-	#Marg{
-		width: 100%;
-	}
-	.name {
-		width: 100%;
-	}
-	#NP2{
-		width: 100%;
-	}
-	#NP{
-		width: 100%;
+		height: inherit;
+		margin: 0 auto;
+ 		width: 100%;
 	}
 }
-@media screen and (max-width: 320px) and (max-height: 568px){
+@media screen and (max-width: 360px){
 	.index{
 		width: 100%;
+		height: inherit;
+		margin: 0 auto;
+ 		width: 100%;
+ 		font-size: 200%;
 	}
 	#home{
 		width: 100%;
-		height: 100%
-	}
-	#Marg{
-		width: 100%;
-	}
-	.name {
-		width: 100%;
-	}
-	#NP2{
-		width: 100%;
-	}
-	#NP{
-		width: 100%;
+		height: inherit;
+		margin: 0 auto;
+ 		width: 100%;
+ 		font-size: 200%;
+ 		background: url('https://unsplash.imgix.net/27/perspective.jpg?q=75&fm=jpg&auto=format&s=6baebf9e4be2259da2b0f9dd96140704') 50% 0 repeat fixed; min-height: 568px; 
 	}
 }
-*/
+
+
 /*Parallax coding*/
 #home { 
-  background: url('https://unsplash.imgix.net/27/perspective.jpg?q=75&fm=jpg&auto=format&s=6baebf9e4be2259da2b0f9dd96140704') 50% 0 repeat fixed; min-height: 1000px; 
+  background: url('https://unsplash.imgix.net/27/perspective.jpg?q=75&fm=jpg&auto=format&s=6baebf9e4be2259da2b0f9dd96140704') 50% 0 repeat fixed; min-height: 100%; 
   height: 1000px; 
   margin: 0 auto; 
   width: 100%; 
@@ -52,7 +35,8 @@
   position: relative; 
   background-repeat: no-repeat;
   background-size: 100%;
-  max-width:100%
+  max-width:100%;
+
 }
   
 #about { 
@@ -66,7 +50,7 @@
   box-shadow: 0 0 50px rgba(0,0,0,0.8);
   background-repeat: no-repeat;
   background-size: 100%;
-  max-width:100%
+  max-width:100%;
 }
  #about2 { 
   background: url('http://amyzan.com/wp-content/uploads/2014/08/nature-gorgeous-nature-purple-sunset-desktop-pc-picture-nature-wallpaper-background-purple-sunset-canvas-purple-sunset-painting-purple-sunset-pomegranate-tree-purple-sunset-tumblr-purple-sunset-beach-.jpg') 50% 0 repeat fixed; min-height: 1000px; 
@@ -90,9 +74,6 @@
 /*Title Style*/
 #Marg{
 	padding-bottom: 100px;
-	height: inherit;
-	margin: 0 auto;
- 	width: 100%;
 }
 .name{
 	font-family: 'Coming Soon', cursive;
@@ -104,9 +85,6 @@
 	padding-top: 30px;
 	opacity: 0.5; 
 	background-color: black;
-	height: inherit;
-	margin: 0 auto;
- 	width: 100%;
 }
 #NP{
 	font-family: 'Coming Soon', cursive;
@@ -117,9 +95,6 @@
 	margin-right: 100px;
 	padding-top: 20px;
 	padding-bottom: 35px;
-	height: inherit;
-	margin: 0 auto;
- 	width: 100%;
 }
 .divbox{
     width: 800px;
@@ -127,9 +102,6 @@
     border-bottom: 2px solid white;
     margin-left: 200px;
     margin-top: 25px;
-    height: inherit;
-	margin: 0 auto;
- 	width: 100%;
 }
 #NP2{
 	font-family: 'Coming Soon', cursive;
@@ -138,18 +110,12 @@
 	color: white;
 	margin-left: 100px;
 	margin-right: 100px;
-	height: inherit;
-	margin: 0 auto;
- 	width: 100%;
 }
 
 
 /*About Me styles*/
 #Marg2{
 	padding-bottom: 100px;
-	height: inherit;
-	margin: 0 auto;
- 	width: 100%;
 }
 #aboutMe{
 	text-align: center;
@@ -163,15 +129,9 @@
 	margin-right: 100px;
 	opacity: 0.5;
 	font-size: 20px;
-	height: inherit;
-	margin: 0 auto;
- 	width: 100%;
 }
 #AM{
 	font-family: 'Coming Soon', cursive;
-	height: inherit;
-	margin: 0 auto;
- 	width: 100%;
 }
 
 /*Interests part styling*/
@@ -179,25 +139,16 @@
 	text-align: center;
 	color: black;
 	font-family: 'Coming Soon', cursive;
-	height: inherit;
-	margin: 0 auto;
- 	width: 100%;
 }
 
 /*Music Modal Styling*/
 #modalM{
 	margin-left: 355px;
-	height: inherit;
-	margin: 0 auto;
- 	width: 100%;
 }
 #M{
 	text-align: center;
 	color: white;
 	font-family: 'Coming Soon', cursive;
-	height: inherit;
-	margin: 0 auto;
- 	width: 100%;
 }
 #MP1{
 	font-family: 'Coming Soon', cursive;
@@ -206,39 +157,24 @@
 	padding-top: 15px;
 	padding-right: 25px;
 	padding-left: 25px;
-	height: inherit;
-	margin: 0 auto;
- 	width: 100%;
 }
 #mPic{
 	margin-left: 250px;
 	margin-bottom: 20px;
-	height: inherit;
-	margin: 0 auto;
- 	width: 100%;
 }
 .modal-content{
 	background-image: url('http://www.fullhdwpp.com/wp-content/uploads/nebulae.jpg');
 	color: white;
-	height: inherit;
-	margin: 0 auto;
- 	width: 100%;
 }
 
 /*Reading Styling*/
 #modalB{
 	margin-left: 25px;
-	height: inherit;
-	margin: 0 auto;
- 	width: 100%;
 }
 #B{
 	text-align: center;
 	color: white;
 	font-family: 'Coming Soon', cursive;
-	height: inherit;
-	margin: 0 auto;
- 	width: 100%;
 }
 #BP1{
 	font-family: 'Coming Soon', cursive;
@@ -246,32 +182,20 @@
 	padding-top: 15px;
 	padding-right: 25px;
 	padding-left: 25px;
-	height: inherit;
-	margin: 0 auto;
- 	width: 100%;
 }
 #bPic{
 	margin-left: 200px;
 	margin-bottom: 20px;
-	height: inherit;
-	margin: 0 auto;
- 	width: 100%;
 }
 
 /*T.V Modal Styling*/
 #modalT{
 	margin-left: 25px;
-	height: inherit;
-	margin: 0 auto;
- 	width: 100%;
 }
 #T{
 	text-align: center;
 	color: white;
 	font-family: 'Coming Soon', cursive;
-	height: inherit;
-	margin: 0 auto;
- 	width: 100%;
 }
 #TP1{
 	font-family: 'Coming Soon', cursive;
@@ -279,24 +203,15 @@
 	padding-top: 15px;
 	padding-right: 25px;
 	padding-left: 25px;
-	height: inherit;
-	margin: 0 auto;
- 	width: 100%;
 }
 #tPic{
 	margin-left: 200px;
 	margin-bottom: 20px;
-	height: inherit;
-	margin: 0 auto;
- 	width: 100%;
 }
 
 /*Project styling*/
 #Marg3{
 	padding-bottom: 50px;
-	height: inherit;
-	margin: 0 auto;
- 	width: 100%;
 }
 .projects{
 	font-family: 'Coming Soon', cursive;
@@ -310,18 +225,12 @@
 	padding-top: 25px;
 	opacity: 0.5;
 	background-color: black;
-	height: inherit;
-	margin: 0 auto;
- 	width: 100%;
 }
 
 #carousel-example-generic{
 	margin-left: 355px;
 	margin-top: 50px;
 	width: 600px;
-	height: inherit;
-	margin: 0 auto;
- 	width: 100%;
 }
 
 /*demo stuff*/
@@ -331,5 +240,4 @@
 	margin-left: 20px;
 	margin-right: 800px;
 	font-size: 20px;
-	
 }
