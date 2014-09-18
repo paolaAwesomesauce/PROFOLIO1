@@ -18,8 +18,8 @@
 		margin: 0 auto;
  		width: 100%;
  		font-size: 200%;
- 		background: url('https://unsplash.imgix.net/27/perspective.jpg?q=75&fm=jpg&auto=format&s=6baebf9e4be2259da2b0f9dd96140704') 50% 0 repeat fixed; min-height: 189px;
- 		max-height: 189px;  
+ 		background: url('https://unsplash.imgix.net/27/perspective.jpg?q=75&fm=jpg&auto=format&s=6baebf9e4be2259da2b0f9dd96140704') 50% 0 repeat fixed; min-height: 100%;
+ 		max-height: 586px;  
 	}
 	#Marg{
 		margin: 0 auto;
@@ -29,6 +29,13 @@
 	.name{
 		font-size: 10px;
 		max-height: 139px;
+	}
+	#about{
+		margin: 0 auto;
+ 		width: 100%;
+ 		font-size: 200%;
+ 		background: url('https://unsplash.imgix.net/5/unsplash-kitsune-4.jpg?q=75&fm=jpg&auto=format&s=b1f07cdf2697b83145d4ebc252ef15f7') 50% 0 repeat fixed; min-height: 586px; 
+ 		max-height: 586px;  
 	}
 }
 
@@ -172,6 +179,9 @@
 .modal-content{
 	background-image: url('http://www.fullhdwpp.com/wp-content/uploads/nebulae.jpg');
 	color: white;
+	height: inherit;
+	margin: 0 auto;
+ 	width: 100%;
 }
 
 /*Reading Styling*/
