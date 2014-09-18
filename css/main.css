@@ -161,7 +161,7 @@
 /*Interests part styling*/
 .Dmodal{
 	text-align: center;
-	color: black;
+	color: white;
 	font-family: 'Coming Soon', cursive;
 }
 
@@ -171,13 +171,13 @@
 }
 #M{
 	text-align: center;
-	color: white;
+	color: black;
 	font-family: 'Coming Soon', cursive;
 }
 #MP1{
 	font-family: 'Coming Soon', cursive;
 	font-size: 15px;
-	color: white;
+	color: black;
 	padding-top: 15px;
 	padding-right: 25px;
 	padding-left: 25px;
@@ -187,8 +187,8 @@
 	margin-bottom: 20px;
 }
 .modal-content{
-	background-image: url('http://www.fullhdwpp.com/wp-content/uploads/nebulae.jpg');
-	color: white;
+	background-image: url('http://www.wallpaperdesign.org/wp-content/uploads/floral-wallpaper.jpg');
+	color: black;
 	height: inherit;
 	margin: 0 auto;
  	width: 100%;
