@@ -1,62 +1,74 @@
 /*Media Quaries*/
-@media screen and (max-width: 1349px){
-	.index{
-		height: inherit;
-		margin: 0 auto;
- 		width: 100%;
+@media (max-width: 1349px){
+	#home { 
+	  background: url('https://unsplash.imgix.net/27/perspective.jpg?q=75&fm=jpg&auto=format&s=6baebf9e4be2259da2b0f9dd96140704') 50% 0 repeat fixed; min-height: 100%; 
+	  height: 1000px; 
+	  margin: 0 auto; 
+	  width: 100%; 
+	  max-width: auto; 
+	  position: relative; 
+	  background-repeat: no-repeat;
+	  background-size: 100%;
+	  max-width:100%;
+
 	}
+	.unbehaved-element {
+    font-size: 1.9em; 
+  }
 }
-@media screen and (max-width: 320px){
-	.index{
-		width: 100%;
-		height: inherit;
-		margin: 0 auto;
- 		width: 100%;
- 		font-size: 200%;
-	}
+@media (max-width: 320px){
+	/*Parallax resize*/
 	#home{
 		margin: 0 auto;
  		width: 100%;
  		font-size: 200%;
- 		background: url('https://unsplash.imgix.net/27/perspective.jpg?q=75&fm=jpg&auto=format&s=6baebf9e4be2259da2b0f9dd96140704') 50% 0 repeat fixed; height: 568px;
- 		max-height: 189px;  
-	}
-	#name{
-		font-size: 10px;
-		max-height: 139px;
-	}
-	#NP2{
-		font-size: 10px;
-	}
-	#NP{
-		font-size: 10px;
-	}
-	#aboutme{
-		font-size: 10px;
-	}
-	#AM{
-		font-size: 10px;
-	}
-	p{
-		font-size: 10px;
-	}
-	#projects{
-		font-size: 10px;
+ 		background: url('https://unsplash.imgix.net/27/perspective.jpg?q=75&fm=jpg&auto=format&s=6baebf9e4be2259da2b0f9dd96140704') 100% 0 repeat fixed; 
+ 		background-repeat:no-repeat;
+		-webkit-background-size:cover;
+		-moz-background-size:cover;
+		-o-background-size:cover;
+		background-size:cover;
+		background-position:center;
+ 		max-height: 568px;  
 	}
 	#about{
 		margin: 0 auto;
  		width: 100%;
  		font-size: 200%;
- 		background: url('https://unsplash.imgix.net/5/unsplash-kitsune-4.jpg?q=75&fm=jpg&auto=format&s=b1f07cdf2697b83145d4ebc252ef15f7') 50% 0 repeat fixed; min-height: 586px; 
- 		max-height: 189px;  
+ 		background: url('https://unsplash.imgix.net/42/cA4aKEIPQrerBnp1yGHv_IMG_9534-3-2.jpg?q=75&fm=jpg&auto=format&s=80bf9ef0bce8d84970fc21e221718f8e') 50% 0 repeat fixed; min-height: 586px; 
+ 		max-height: 568px;  
 	}
 	#about2{
 		margin: 0 auto;
  		width: 100%;
  		font-size: 200%;
  		background: url('https://unsplash.imgix.net/19/desktop.JPG?q=75&fm=jpg&auto=format&s=66b82c81cfed8cf57ded7b935e98e000') 50% 0 repeat fixed; min-height: 586px; 
- 		max-height: 189px;  
+ 		max-height: 568px;  
 	}
+
+	/*title resizing*/
+	#name{
+	font-size: 10px;
+	text-align: center;
+	padding-right: 12px;
+	height: 284px;
+	}
+	#NP{
+	font-size: 10px;
+	text-align: center;
+	}
+	#NP2{
+	font-size: 10px;
+	text-align: center;
+	}
+	#NP3{
+	font-size: 10px;
+	text-align: center;
+	}
+	#audio{
+		width: 100%;
+	}
+
 }
 
 
@@ -75,7 +87,7 @@
 }
   
 #about { 
-  background: url('https://unsplash.imgix.net/5/unsplash-kitsune-4.jpg?q=75&fm=jpg&auto=format&s=b1f07cdf2697b83145d4ebc252ef15f7') 50% 0 repeat fixed; min-height: 100px; 
+  background: url('https://unsplash.imgix.net/42/cA4aKEIPQrerBnp1yGHv_IMG_9534-3-2.jpg?q=75&fm=jpg&auto=format&s=80bf9ef0bce8d84970fc21e221718f8e') 50% 0 repeat fixed; min-height: 100px; 
   height: 1000px; 
   margin: 0 auto; 
   width: 100%; 
@@ -99,14 +111,6 @@
   background-repeat: no-repeat;
   background-size: 100%;
   max-width:100%;
-}
-
-/*Body ID*/
-.index{
-	font-family: 'Coming Soon', cursive;
-	height: inherit;
-	margin: 0 auto;
- 	width: 100%;
 }
 
 /*Title Style*/
@@ -178,6 +182,9 @@
 	margin-right: 100px;
 	opacity: 0.5;
 	font-size: 20px;
+}
+#ABP{
+	font-family: 'Coming Soon', cursive;
 }
 #AM{
 	font-family: 'Coming Soon', cursive;
