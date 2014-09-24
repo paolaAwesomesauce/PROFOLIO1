@@ -103,26 +103,19 @@
 		width: 60px;
 	}
 
-/*T.V Modal Styling*/
-#modalT{
-	margin-left: 25px;
-}
-#T{
-	text-align: center;
-	color: white;
-	font-family: 'Coming Soon', cursive;
-}
-#TP1{
-	font-family: 'Coming Soon', cursive;
-	font-size: 15px;
-	padding-top: 15px;
-	padding-right: 25px;
-	padding-left: 25px;
-}
-#tPic{
-	margin-left: 200px;
-	margin-bottom: 20px;
-}
+	#modalT{
+		margin-left: 15px;
+	}
+	#T{
+		font-size: 15px;
+	}
+	#TP1{
+		font-size: 10px;
+	}
+	#tPic{
+		height: 100px;
+		width: 60px;
+	}
 
 /*Project styling*/
 #Marg3{
