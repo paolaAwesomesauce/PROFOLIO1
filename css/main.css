@@ -71,23 +71,18 @@
 
 	#modalM{
 		margin-left: 15px;
+		height: 100px;
+		width: 50px;
 	}
 	#M{
-		text-align: center;
-		color: white;
-		font-family: 'Coming Soon', cursive;
+		font-size: 15px;
 	}
 	#MP1{
-		font-family: 'Coming Soon', cursive;
-		font-size: 15px;
-		color: white;
-		padding-top: 15px;
-		padding-right: 25px;
-		padding-left: 25px;
+		font-size: 10px;
 	}
 	#mPic{
-		margin-left: 250px;
-		margin-bottom: 20px;
+		height: 100px;
+		width: 60px;
 	}
 }
 
