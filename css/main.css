@@ -64,7 +64,31 @@
 	#AM{
 		font-size: 10px;
 	}
+	.Dmodal{
+		font-size: 15px;
+		padding-top: 10px;
+	}
 
+	#modalM{
+		margin-left: 15px;
+	}
+	#M{
+		text-align: center;
+		color: white;
+		font-family: 'Coming Soon', cursive;
+	}
+	#MP1{
+		font-family: 'Coming Soon', cursive;
+		font-size: 15px;
+		color: white;
+		padding-top: 15px;
+		padding-right: 25px;
+		padding-left: 25px;
+	}
+	#mPic{
+		margin-left: 250px;
+		margin-bottom: 20px;
+	}
 }
 
 
