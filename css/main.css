@@ -64,10 +64,6 @@
 	#AM{
 		font-size: 10px;
 	}
-	.Dmodal{
-		font-size: 15px;
-		padding-top: 10px;
-	}
 
 	#modalM{
 		margin-left: 15px;
@@ -260,6 +256,8 @@
 	text-align: center;
 	color: black;
 	font-family: 'Coming Soon', cursive;
+	font-size: 35px;
+	padding-top: 10px;
 }
 
 /*Music Modal Styling*/
